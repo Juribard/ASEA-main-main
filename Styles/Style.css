@@ -20,6 +20,11 @@ header {
 }
 .langage {
     margin-right: 10px;
+    display: flex;
+    color: #002060;
+}
+.symb_langage {
+    margin-right: 10px;
 }
 /*----------------navigation---------------------*/
 nav {
@@ -54,7 +59,24 @@ main {
 }
 
 /*------------------footer-----------------------*/
+footer {
+    border-top: #002060 solid 2px;
+}
+.footer_border {
+    margin: 10px 400px 50px 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.navig_page_footer {
+    color: #002060;
+    text-decoration: none;
+}
 .img_footer {
     width: 200px;
     height: auto;
+}
+.mini_logo {
+    width: 15px;
+    height: auto;
+    margin-right: 10px;
 }
